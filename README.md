@@ -34,9 +34,11 @@ A mobile application built with **React Native** to track real-time stock prices
 3. **Configure your API key:**
    
    Create a *.env* file in the root directory of the project and add your stock data API key:
+   
    API_KEY=your_api_key_here
 
-4. **Run the app:**
+5. **Run the app:**
    
    Start the development server:
+   ```bash
    npx expo start
