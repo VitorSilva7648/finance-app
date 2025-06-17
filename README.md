@@ -28,7 +28,7 @@ A mobile application built with **React Native** to track real-time stock prices
 2. **Install dependencies**
    ```bash
    npm install
-  # or
+  #or
    yarn install
    
 3. **Configure your API key**
