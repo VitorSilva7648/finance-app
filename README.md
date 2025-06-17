@@ -25,16 +25,18 @@ A mobile application built with **React Native** to track real-time stock prices
    git clone https://github.com/your-username/stock-prices-app.git
    cd stock-prices-app
    
-2. **Install dependencies**
+2. **Install dependencies:**
    ```bash
       npm install
       # or
       yarn install
    
-3. **Configure your API key**
+3. **Configure your API key:**
+   
    Create a *.env* file in the root directory of the project and add your stock data API key:
    API_KEY=your_api_key_here
 
-4. **Run the app**
+4. **Run the app:**
+   
    Start the development server:
    npx expo start
