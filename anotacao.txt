@@ -1,0 +1,48 @@
+# iniciar projeto
+
+- npx create-expo-app@latest <nameproject>
+
+# navegar 
+
+- cd nameproject
+
+# script to remove the boilerplate code:
+
+- npm run reset-project
+
+# run
+
+- npm run android
+
+# Criando APK
+
+# Instale o EAS CLI (caso ainda não tenha):
+
+npm install -g eas-cli
+
+# Autentique-se no Expo:
+
+eas login
+
+# Inicialize o EAS no seu projeto:
+
+eas init
+
+# Crie o APK (modo development, para testes):
+
+- eas build --platform android --profile development --local
+
+O EAS vai pedir para definir um Application ID para o app Android. Esse ID deve seguir o formato de domínio invertido (por exemplo, com.seuprojeto.meuapp)
+
+# Criar APK para produção:
+
+- eas build --platform android --profile production
+
+# Gerar IPA
+
+- eas build --platform ios --profile production
+
+# Gerar APK sem EAS
+
+- cd android
+- ./gradlew assembleRelease
