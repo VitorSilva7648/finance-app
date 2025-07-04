@@ -1,3 +1,6 @@
+# API usada -  Twelve Data
+
+
 # iniciar projeto
 
 - npx create-expo-app@latest <nameproject>
